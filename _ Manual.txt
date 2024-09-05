@@ -1,0 +1,44 @@
+SIM EcoSystem (c) Robin Wootton 2008
+====================================
+
+Java Compilation Instructions
+-----------------------------
+Conduct from the directory above, since it wants to feel like it is in a dir called eco
+
+-d flag tidies output into it's own folder
+
+$ javac -d .\compiled .\eco\*.java
+$ javac -d .\compiled .\eco\livingthing\*.java
+
+cd compiled
+java eco/EcoSystem
+
+
+Project Genesis and History
+---------------------------
+
+During M255 I conceived of a heirarchy of classes representing an ecosystem. 
+
+Characteristics common to all living things (age, mass) were kept in an abstract superclass.
+
+Characteristics of animals (food 
+
+A plant might be a carnivore too, and some animals are carnivores AND herbivores, so these two would be interfaces.
+
+My only means of displaying the living things was in textual form using a toString() method.
+
+...until M257!
+
+Now I have revisited and fleshed out my idea, with a nice GUI, and with a different thread for each animal.
+
+I think you will enjoy running the resultant NetBeans project. 
+Try placing a few areas of grass, several rabbits, then taking it off "pause" at the bottom.
+
+Things disappear if:
+- eaten
+- age reaches maximum
+- you use the "Smite" tool.
+
+It's taken a long time -- but what more enjoyable form of revision?!
+I hope to incorporate as much as I can of my studies, whichever way they lead.
+
